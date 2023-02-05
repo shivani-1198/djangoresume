@@ -1,0 +1,100 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shivani Agarwal</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class= "container">
+		<div class= "row"> 
+			<div class="col-md-3">
+				<div class = "card card-body h-100 border-info" id="profile-wrapper'">
+					<img id="profile-pic" src="{% static 'images/shivani_11.jpeg' %}"> 
+
+					<hr>
+					<h4>Hi I'm Shivani</h4>
+					<p>I love coding, doing research and collaborating</p>
+
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class = "card card-body h-100 border-info">
+					<h4> About My Self</h4>
+					<hr>
+					<p> I am a Detail Oriented computer Science student at Syracuse University in New York. I am  seeking an internship in an organisation where I can apply my skills for effective software development and gain some professional experience.</p>
+
+					<p>I am proficient in Python, Java, Haskell and C programming languages. In addition I have worked with open source platforms like Git and Heroku.</p>
+
+					<ul class= "social-links">
+						<a href="https://github.com/shivani-1198"><img class="social" src="{% static 'images/github.png' %}"> </a>
+						<a href="https://www.linkedin.com/in/shivani-agarwal-53bb66170/"><img class="social" src="{% static 'images/linkedin.png' %}"></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class= "row"> 
+			<div class="col-md-6">
+				<div class = "card card-body h-100">
+					<h5> EDUCATION </h5>
+					<hr>
+					<p style= "margin-bottom:0;"> <b>Syracuse University | Syracuse, New York</b></p>
+					<p style= "margin : 0; padding-top:0;"><b>MS,ComputerScience| GPA:3.7/4</b></p>
+					<p>Expected: December 2023</p>
+					<p style= "margin-bottom:0;"> <b>Uttar Pradesh Technical University | Agra, Uttar Pradesh</b></p>
+					<p style= "margin : 0; padding-top:0;"><b>B. Tech, BioTechnical Engineering</b></p>
+					<p>June 2020</p>
+
+					</div>
+			</div>
+
+
+			<div class="col-md-6">
+				<div class = "card card-body h-100">
+					<h5> SKILLS </h5>
+					<hr>
+					<p><b>Programing Languages: </b>Python, Java, JavaScript, React, C</p>
+					<p><b>Web: </b> HTML, CSS, Bootstrap</p>
+					<p><b>Libraries & Frameworks:</b> Node.js, Linux, Django, PyTorch</p>
+					<p><b>Tools:</b> Git, Heroku</p>
+					<p><b>Relevant Courses:</b> Natural Language Processing, Data Structures, Algorithms, Machine Learning, Database Management Systems, Object Oriented Programming, Data Mining, Structured Programming and Formal methods, Blockchain, Computer Architecture, Object Oriented Designs</p>
+				</div>
+			</div>
+
+		</div>
+		<br>
+		<div class= "row"> 
+			<div class="col-md-6">
+				<div class = "card card-body h-100">
+					<h5> ACADEMIC PROJECTS </h5>
+					<hr>
+					<p><b>Initial Coin Offering (ICO) Contract: </b>In this project, I wrote a program which sells Token against all other crypto assets like Ethereum. We started this project by deploying the contract which then executed the function to start the sale of the token. After this step, any account with an address will be able to buy tokens by selling any cryptocurrency. The contract will record the sale and at the end of the sell period all buyers will be able to claim their token by calling another function on smart contract.</p>
+
+					<p><b>Timelock Smart Contract: </b> Implemented a Timelock Smart Contract as part of my coursework. It is a wallet that is locked for a certain amount of time. It helps to control the user from making any rush decision. In this we lock the crypto in smart contract so that it is not possible to withdraw your crypto for a certain time.</p>
+					<p><b>A Weather Website:</b> Implemented a website using django and python where you can check the weather and the air quality of any area just by its zipcode </p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class = "card card-body h-100">
+					<h5>EXPERIENCE</h5>
+					<hr>
+					<p><b>IpserLab | Palo Alto, California , Web Developer Intern:</b></p>
+					<p> I worked on a project creating a new video conferencing app where you will have the option to log into different types of meetings with different formats. Worked with Product and Design teams to get the requirements and design to update the features accordingly using React. Conducting detailed testing throughout the development life cycle to find and fix any bugs.</p>
+
+					<p><b>University of California Berkeley | Berkeley, California, Summer Student Intern:</b></p>
+					<p>In this 8 week summer school at U.C Berkeley, I worked on multiple projects which helped me deeply understand the fundamentals of computer programming. I designed several projects such as MineSweeper, Sudoku, Connect4, Tetris during my coursework. Led a team of 3 to develop a team project called Random Password Generator.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+</body>
+</html>
